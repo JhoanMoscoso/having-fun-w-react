@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -39,4 +39,82 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.bg-aqua{
+  background-color: aqua;
+}
+
+.bg-coral{
+  background-color: coral;
+}
+
+.bg-wheat{
+  background-color: wheat;
+}
+
+.rounded-50{
+  border-radius: 20px;
+
+}
+
+.text-black{
+  color: #424242
+}
+
+.txt-white{
+  color: #fff;
+}
+
+.txt-center{
+  text-align: center;
+}
+
+.exercise-list{
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.exercise-list li{
+  padding:0.7em;
+  border-bottom: 1px solid #ccc;
+}
+
+.exercise-list li:last-child{
+  border-bottom: none;
+}
+
+.btn-menu{
+  border: 1px cyan solid;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: magenta;
+}
+
+.btn-menu:hover{
+  color: cyan;
+  border: 1px magenta solid;
+  background-color: #888;
+
+}
+
+.pName{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bg-black{
+ background-color: black;
+
+}
+
+.txt-code{
+  font-family: 'Fira Code', monospace;
+  color: greenyellow;
+  text-align: left;
+}
+
+.txt-left{
+  text-align: left;
+
 }
