@@ -9,8 +9,8 @@ const ExerciseList = () => {
           <ul className='exercise-list'>
             <li><Link to="/badges-color">Basic UseState: Badge-color</Link></li>
             <li><Link to="/person-object">Props: Person object</Link></li>
-            <li><Link to="">Ejercicio 3</Link></li>
-            <li><Link to="">Ejercicio 4</Link></li>
+            <li><Link to="/flexbox">Flexbox</Link></li>
+            <li><Link to="/flexbox2">Flexbox 2</Link></li>
             <li><Link to="">Ejercicio 5</Link></li>
             <li><Link to="">Ejercicio 6</Link></li>
             <li><Link to="">Ejercicio 7</Link></li>

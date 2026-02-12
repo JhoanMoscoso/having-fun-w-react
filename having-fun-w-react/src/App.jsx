@@ -9,6 +9,9 @@ import Topbar from './components/Topbar.jsx'
 import Home from './pages/Home';
 import E1BadgesColor from './pages/E1BadgesColor';
 import E2PersonObject from './pages/E2PersonObject';
+import E3Flexbox from './pages/E3Flexbox';
+import E4Flexbox2 from './pages/E4Flexbox2';
+
 
 function App() {
   
@@ -21,6 +24,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path='/badges-color' element={<E1BadgesColor />} />
           <Route path='/person-object' element={<E2PersonObject />} />
+          <Route path='/flexbox' element={<E3Flexbox />} />
+          <Route path='/flexbox2' element={<E4Flexbox2 />} />
         </Routes>      
       </div>
     </BrowserRouter>
